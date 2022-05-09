@@ -1,0 +1,65 @@
+---
+_project:
+  authors: [ SrTapir ]
+  description: All Towers
+  name: All Towers
+  url: ""
+  version: 0.1.0
+_route:
+  - (==) All Towers
+  - Plateau:
+    - SOR clip
+    - .loc(Boko Camp)
+    - _Equipment::Shield<Pot Lid + Boko Spear>:
+        line-color: salmon
+        coord: [-952.34, 238.33, 1959.44]
+    - _Material<Food>:
+        comment: 6 peppers
+    - .loc(Temple of Time)
+    - _Chest<Traveler's Bow>:
+        coord: [-832.43, 222.00, 1963.11]
+    - _Material<Arrow x5>
+    - _Shrine::JaBaij
+    - _Npc<Old Man>:
+        comment: text options 2-1-1-2
+    - _Tower::GreatPlateau
+    - _Shrine::OmanAu
+    - _Material<Hyrule Herb x4>:
+        coord: [-701.94, 171.35, 1482.14]
+    - _Material<Tree>:
+        coord: [-828.31, 192.35, 2255.13]
+        comment: WB
+    - _Shrine::OwaDaim
+    - _Material<Tree>:
+        coord: [-979.76, 317.81, 2293.67]
+        comment: Bomb tree
+    - _Npc<Steer point>:
+        coord: [-1125,2073]
+    - _Shrine::KehNamut
+    - _Npc<Paraglider>:
+       icon: king
+       coord: [-812, 1966.1012189378007]
+
+  - Towers:
+    - _Tower::Lake:
+        line-color: rgb(187,255,131)
+    - _Material<Durian x10>:
+        coord: [1354.61, 259.70, 3203.43]
+    - _Tower::Faron
+    - _Tower::DuelingPeaks
+    - _Tower::Hateno
+    - _Tower::Lanayru
+    - _Chest<BTB off Lizalfos>:
+        coord: [2654.50, 322.55, -586.50]
+    - _Tower::Akkala
+    - _Tower::Eldin
+    - _Tower::Woodland
+    - _Tower::Hebra
+    - _Tower::Tabantha
+    - _Tower::Ridgeland
+    - _Tower::Central
+    - _Warp::Tower::Hebra:
+        comment: Warp!!!
+        line-color: peachpuff
+    - _Tower::Wasteland
+    - _Tower::Gerudo
